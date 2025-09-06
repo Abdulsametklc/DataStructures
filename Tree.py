@@ -55,5 +55,4 @@ class BinarySearchTree: # Tree
             currentNode = currentNode.right
         return currentNode
 
-
 myTree = BinarySearchTree()
