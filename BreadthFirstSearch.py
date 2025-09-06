@@ -45,7 +45,7 @@ class BinarySearchTree:
                 return True
         return False
 
-    def minOfNode(selfsel, currentNode):
+    def minOfNode(self, currentNode):
         while currentNode.left:
             currentNode = currentNode.left
         return currentNode
